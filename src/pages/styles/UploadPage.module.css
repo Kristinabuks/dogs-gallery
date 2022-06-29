@@ -1,0 +1,23 @@
+.UploadContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.UploadForm {
+  text-align: center;
+}
+
+.ButtonUpload {
+  background-color: #96c69e;
+  border-color: #96c69e;
+  border-radius: 1em;
+  font-family: "Pacifico";
+  font-size: large;
+  cursor: pointer;
+  margin: 1em;
+}
+
+.Description {
+  resize: none;
+}

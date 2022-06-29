@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  min-width: 330px;
+  font-family: "Pacifico";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

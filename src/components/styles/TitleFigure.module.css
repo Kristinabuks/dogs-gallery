@@ -1,0 +1,58 @@
+.Figure {
+  width: 50%;
+  display: flex;
+  margin: 0.5em;
+  height: 100%;
+}
+
+@media (max-width: 992px) {
+  .Figure {
+    width: 100%;
+  }
+}
+
+.ImageContainer {
+  width: 50%;
+  height: 100%;
+}
+
+.Image {
+  width: 100%;
+  padding: 0.1em;
+  border-radius: 1em;
+}
+
+.AboutBreedContainer {
+  width: 50%;
+  height: 100%;
+  padding: 0.1em;
+  text-align: justify;
+}
+
+.Breed {
+  margin: 0;
+  text-align: center;
+}
+
+.AboutBreed {
+  margin: 0.2em;
+}
+
+.AboutBreed_height {
+  height: 100%;
+}
+
+.ButtonCareContainer {
+  margin-top: 0.1em;
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+}
+
+.ButtonCare {
+  background-color: #96c69e;
+  border-color: #96c69e;
+  border-radius: 1em;
+  font-family: "Pacifico";
+  cursor: pointer;
+}

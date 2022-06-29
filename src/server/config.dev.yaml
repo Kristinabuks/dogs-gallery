@@ -1,0 +1,14 @@
+s3:
+  region: "placeholder"
+  endpoint: "http://192.168.1.70:9000/"
+  signatureVersion: "v4"
+  forcePathStyle: true
+  credentials:
+    accessKeyId: "iZTGjiIwQwHnHPb0"
+    secretAccessKey: "TuTIu61K0ahgPAK1eXVvAglHmyijD9Vj"
+
+db:
+  dsn: mongodb://127.0.0.1:27017
+
+server:
+  port: 8000

@@ -1,0 +1,29 @@
+.PhotoColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+@media (max-width: 768px) {
+  .PhotoColumn {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .PhotoColumn {
+    width: calc(100% / 2);
+  }
+}
+
+@media (min-width: 992px) {
+  .PhotoColumn {
+    width: calc(100% / 3);
+  }
+}
+
+@media (min-width: 1200px) {
+  .PhotoColumn {
+    width: calc(100% / 5);
+  }
+}

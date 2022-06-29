@@ -1,0 +1,40 @@
+.Sidebar {
+  z-index: 1;
+  position: fixed;
+  left: -40%;
+  height: 100%;
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0.37);
+  color: aliceblue;
+  border-style: solid;
+  border: rgba(0, 0, 0, 0.37);
+  border-radius: 0 1em 1em 0;
+  transition: 0.5s;
+}
+
+.Sidebar_show {
+  left: 0 !important;
+  transition: 0.5s;
+}
+
+@media (max-width: 992px) {
+  .Sidebar {
+    width: 100%;
+    left: -100%;
+  }
+}
+
+.Text {
+  width: 95%;
+  padding-left: 1em;
+}
+
+.CloseIcon {
+  position: absolute;
+  right: 1.5%;
+  top: 0.5%;
+  color: #96c69e;
+  border-radius: 100%;
+  opacity: 90%;
+  cursor: pointer;
+}
